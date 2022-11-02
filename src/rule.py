@@ -8,9 +8,9 @@ import pdb  # NOQA
 from collections import namedtuple
 from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor
-# from features_common.proxyio import ProcessProxy # type: ignore
-# from features_common.helpers import to_date_iso8601 # type: ignore
-# from .rules_utils.mt_receiver_qr_low_27_whitelist import mt_receiver_qr_low_27_whitelist_list # type: ignore
+from features_common.proxyio import ProcessProxy # type: ignore
+from features_common.helpers import to_date_iso8601 # type: ignore
+from .rules_utils.mt_receiver_qr_low_27_whitelist import mt_receiver_qr_low_27_whitelist_list # type: ignore
 from functools import partial
 import re
 
